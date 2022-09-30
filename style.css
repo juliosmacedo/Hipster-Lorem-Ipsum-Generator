@@ -1,0 +1,106 @@
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  body {
+    font-family: 'Ovo';
+
+  }
+
+  h2 {
+    font-size: 5em;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px;
+    margin: 0.2em;
+  }
+
+  h5 {
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 2rem;
+    padding: 0px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .card {
+    margin: 1rem;
+    border: 1px solid gray;
+    border-radius: 25px;
+    background-color: white;
+  }
+  
+  h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 5em;
+    text-align: center;
+    padding: 10px;
+  }
+
+  h3 {
+    margin: 3vh;
+  }
+
+  
+
+  button {
+    font-family: 'Ovo';
+    font-size: 1.5em;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid rgb(44, 44, 44);
+    border-radius: 30px;
+  }
+
+  button:hover {
+    background-color: #b8b8b8;
+  }
+
+  button:active {
+    background-color: #921388;
+  }
+
+  @media screen and (min-width: 600px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
+
+body {
+    background-color: #137492;
+}
+
+
+
+label {
+  display: flex;
+  margin: auto;
+  margin-bottom: 1vh;
+  max-width: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  margin-left: 1vh;
+  font-size: 1.4rem;
+  width: 3rem;
+}
