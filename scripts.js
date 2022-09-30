@@ -7,7 +7,7 @@ app.appendChild(container)
 
 function fetchHipster() {
   const pRequest = document.querySelector('#p').value;
-  request.open('GET', `http://hipsum.co/api/?type=hipster-latin&paras=${pRequest}`, true)
+  request.open('GET', `https://hipsum.co/api/?type=hipster-latin&paras=${pRequest}`, true)
   request.onload = function () {
       let data = JSON.parse(this.response)
       const card = document.createElement('div')
